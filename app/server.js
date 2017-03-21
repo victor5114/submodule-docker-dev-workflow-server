@@ -17,7 +17,7 @@ var bunyan = require('bunyan');
 
 var log = bunyan.createLogger({name: 'tango'});
 
-log.info('server process starting');
+log.info('Server process starting');
 
 import type Application from 'express';
 let app: Application = initApplication();
