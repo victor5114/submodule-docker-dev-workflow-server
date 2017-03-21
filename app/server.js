@@ -30,6 +30,6 @@ app.listen(config.express.port, config.express.ip, function (error) {
     log.error('Unable to listen for connections', error);
     process.exit(10);
   }
-  log.info('express is listening on http://' +
+  log.info('Express is listening on http://' +
     config.express.ip + ':' + config.express.port);
 });
